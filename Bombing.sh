@@ -127,7 +127,7 @@ do
         echo -e "\e[1;32m    BY ALBY"
         sleep 5
         cd $HOME
-        cd Tbomb
+        cd bombing
         python3 bomber.py
         
         exit
