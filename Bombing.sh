@@ -27,12 +27,12 @@ banner() {
     clear
     echo -e "\e[1;31m"
     if ! [ -x "$(command -v figlet)" ]; then
-        echo 'Introducing TBomb'
+        echo 'Introducing Bombing'
     else
-        figlet TBomb
+        figlet Bombing
     fi
     if ! [ -x "$(command -v toilet)" ]; then
-        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mNitro Hacker \e[0m"
+        echo -e "\e[4;34m This Bomber Was Created By \e[1;32mALBY \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
         toilet -f mono12 -F border Nitro
