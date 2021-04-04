@@ -35,11 +35,10 @@ banner() {
         echo -e "\e[4;34m This Bomber Was Created By \e[1;32mALBY \e[0m"
     else
         echo -e "\e[1;34mCreated By \e[1;34m"
-        toilet -f mono12 -F border Nitro
+        toilet -f mono12 -F border ALby
     fi
     echo -e "\e[1;34m For Any Queries Join Me!!!\e[0m"
-    echo -e "\e[1;32m           Telegram: https://t.me/nitro hacker \e[0m"
-    echo -e "\e[4;32m   YouTube: https://www.youtube.com/channel/UCv80Btv_4kn_9b-GVgPIwMg \e[0m"
+   
     echo " "
 
 }
@@ -116,16 +115,16 @@ do
     clear
    if [ $ch -eq 1 ];then
         echo -e "\e[1;34m        wait please"
-        echo -e "\e[1;32m   Subscribe Nitro Hacker Youtube Channel"
+        echo -e "\e[1;32m   BY ALBY"
         sleep 5
         cd $HOME
-        cd Tbomb
+        cd bombing
         python3 bomber.py
        
         exit
     elif [ $ch -eq 2 ];then
         echo -e "\e[1;34m          wait please"
-        echo -e "\e[1;32m    Subscribe Nitro Hacker Youtube Channel"
+        echo -e "\e[1;32m    BY ALBY"
         sleep 5
         cd $HOME
         cd Tbomb
@@ -135,7 +134,7 @@ do
         exit
     elif [ $ch -eq 3 ];then
          echo -e "\e[1;34m        wait please"
-        echo -e "\e[1;32m   Subscribe Nitro Hacker Youtube Channel"
+        echo -e "\e[1;32m     BY ALBY"
          sleep 5
          cd $HOME
         git clone https://github.com/ha-mrx/Emailbomb
@@ -146,17 +145,17 @@ do
         exit
     elif [ $ch -eq 4 ];then
         echo -e "\e[1;34m            whatsapp bombing coming soon"
-        echo -e "\e[1;32m        Subscribe Nitro Hacker Youtube Channel"
+        echo -e "\e[1;32m          BY ALBY"
         sleep 5
         cd $HOME
-        cd Tbomb
+        cd bombing
         bash TBomb.sh
     elif [ $ch -eq 5 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
         rm -rf Tbomb
         git clone https://github.com/Hackertrackersj/Tbomb
-        cd Tbomb
+        cd bombing
         bash TBomb.sh
        
         exit
