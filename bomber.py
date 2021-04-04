@@ -51,14 +51,24 @@ def clr():
 def bann_text():
     clr()
     logo = """
-   ████████ █████                 ██
-   ▒▒▒██▒▒▒ ██▒▒██                ██
-      ██    ██  ██        ██   ██ ██
-      ██    █████▒  ████  ███ ███ █████
-      ██    ██▒▒██ ██  ██ ██▒█▒██ ██▒▒██
-      ██    ██  ██ ██  ██ ██ ▒ ██ ██  ██
-      ██    █████▒ ▒████▒ ██   ██ █████▒
-      ▒▒    ▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒
+                                                                                                                                                    
+                                                                                                                                                 
+BBBBBBBBBBBBBBBBB        OOOOOOOOO     MMMMMMMM               MMMMMMMMBBBBBBBBBBBBBBBBB   IIIIIIIIIINNNNNNNN        NNNNNNNN        GGGGGGGGGGGGG
+B::::::::::::::::B     OO:::::::::OO   M:::::::M             M:::::::MB::::::::::::::::B  I::::::::IN:::::::N       N::::::N     GGG::::::::::::G
+B::::::BBBBBB:::::B  OO:::::::::::::OO M::::::::M           M::::::::MB::::::BBBBBB:::::B I::::::::IN::::::::N      N::::::N   GG:::::::::::::::G
+BB:::::B     B:::::BO:::::::OOO:::::::OM:::::::::M         M:::::::::MBB:::::B     B:::::BII::::::IIN:::::::::N     N::::::N  G:::::GGGGGGGG::::G
+  B::::B     B:::::BO::::::O   O::::::OM::::::::::M       M::::::::::M  B::::B     B:::::B  I::::I  N::::::::::N    N::::::N G:::::G       GGGGGG
+  B::::B     B:::::BO:::::O     O:::::OM:::::::::::M     M:::::::::::M  B::::B     B:::::B  I::::I  N:::::::::::N   N::::::NG:::::G              
+  B::::BBBBBB:::::B O:::::O     O:::::OM:::::::M::::M   M::::M:::::::M  B::::BBBBBB:::::B   I::::I  N:::::::N::::N  N::::::NG:::::G              
+  B:::::::::::::BB  O:::::O     O:::::OM::::::M M::::M M::::M M::::::M  B:::::::::::::BB    I::::I  N::::::N N::::N N::::::NG:::::G    GGGGGGGGGG
+  B::::BBBBBB:::::B O:::::O     O:::::OM::::::M  M::::M::::M  M::::::M  B::::BBBBBB:::::B   I::::I  N::::::N  N::::N:::::::NG:::::G    G::::::::G
+  B::::B     B:::::BO:::::O     O:::::OM::::::M   M:::::::M   M::::::M  B::::B     B:::::B  I::::I  N::::::N   N:::::::::::NG:::::G    GGGGG::::G
+  B::::B     B:::::BO:::::O     O:::::OM::::::M    M:::::M    M::::::M  B::::B     B:::::B  I::::I  N::::::N    N::::::::::NG:::::G        G::::G
+  B::::B     B:::::BO::::::O   O::::::OM::::::M     MMMMM     M::::::M  B::::B     B:::::B  I::::I  N::::::N     N:::::::::N G:::::G       G::::G
+BB:::::BBBBBB::::::BO:::::::OOO:::::::OM::::::M               M::::::MBB:::::BBBBBB::::::BII::::::IIN::::::N      N::::::::N  G:::::GGGGGGGG::::G
+B:::::::::::::::::B  OO:::::::::::::OO M::::::M               M::::::MB:::::::::::::::::B I::::::::IN::::::N       N:::::::N   GG:::::::::::::::G
+B::::::::::::::::B     OO:::::::::OO   M::::::M               M::::::MB::::::::::::::::B  I::::::::IN::::::N        N::::::N     GGG::::::GGG:::G
+BBBBBBBBBBBBBBBBB        OOOOOOOOO     MMMMMMMM               MMMMMMMMBBBBBBBBBBBBBBBBB   IIIIIIIIIINNNNNNNN         NNNNNNN        GGGGGG   GGGG
                                          """
     version = "Version: "+__VERSION__
     contributors = "Contributors: "+" ".join(__CONTRIBUTORS__)
@@ -95,7 +105,7 @@ def do_zip_update():
     else:
         mesgdcrt.FailureMessage("Unable to update TBomb.")
         mesgdcrt.WarningMessage(
-            "Grab The Latest one From https://github.com/Hackertrackersj/Tbomb.git")
+            "Grab The Latest one From https://github.com/ALBINPRAVEEN/bombing.git")
 
     sys.exit()
 
@@ -129,7 +139,7 @@ def do_git_update():
         mesgdcrt.GeneralMessage("Then run command:")
         print(
             "git checkout . && "
-            "git pull https://github.com/Hackertrackersj/Tbomb HEAD")
+            "git pull https://github.com/ALBINPRAVEEN/bombing HEAD")
     sys.exit()
 
 
@@ -143,15 +153,15 @@ def update():
 def check_for_updates():
     mesgdcrt.SectionMessage("Checking for updates")
     fver = requests.get(
-            "https://raw.githubusercontent.com/Hackertrackersj/Tbomb/master/.version"
+            "https://raw.githubusercontent.com/ALBINPRAVEEN/bombing/master/.version"
             ).text.strip()
     if fver != __VERSION__:
         mesgdcrt.WarningMessage("An update is available")
         mesgdcrt.GeneralMessage("Starting update...")
         update()
     else:
-        mesgdcrt.SuccessMessage("TBomb is up-to-date")
-        mesgdcrt.GeneralMessage("Starting TBomb")
+        mesgdcrt.SuccessMessage("Bombing is up-to-date")
+        mesgdcrt.GeneralMessage("Starting Bomb")
 
 
 def notifyen():
@@ -211,7 +221,7 @@ def pretty_print(cc, target, success, failed):
     mesgdcrt.GeneralMessage("Failed       : " + str(failed))
     mesgdcrt.WarningMessage(
         "This tool was made for fun and research purposes only")
-    mesgdcrt.SuccessMessage("TBomb was created by nitro")
+    mesgdcrt.SuccessMessage("TBomb was created by ALBY")
 
 
 def workernode(mode, cc, target, count, delay, max_threads):
@@ -328,7 +338,7 @@ def selectnode(mode="sms"):
 
 mesgdcrt = MessageDecorator("icon")
 if sys.version_info[0] != 3:
-    mesgdcrt.FailureMessage("TBomb will work only in Python v3")
+    mesgdcrt.FailureMessage("Bombing will work only in Python v3")
     sys.exit()
 
 try:
@@ -338,20 +348,20 @@ except FileNotFoundError:
 
 
 __VERSION__ = get_version()
-__CONTRIBUTORS__ = ['Nitro', 'SpeedX', 't0xic0der', 'scpketer', 'Stefan']
+__CONTRIBUTORS__ = ['ALBY']
 
 ALL_COLORS = [Fore.GREEN, Fore.RED, Fore.YELLOW, Fore.BLUE,
               Fore.MAGENTA, Fore.CYAN, Fore.WHITE]
 RESET_ALL = Style.RESET_ALL
 
-description = """TBomb - Your Friendly Spammer Application
+description = """Bombing - Your Friendly Spammer Application
 
 TBomb can be used for many purposes which incudes -
 \t Exposing the vulnerable APIs over Internet
 \t Friendly Spamming
 \t Testing Your Spam Detector and more ....
 
-TBomb is not intented for malicious uses.
+Bombing is not intented for malicious uses.
 """
 
 parser = argparse.ArgumentParser(description=description,
