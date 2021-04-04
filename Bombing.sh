@@ -96,7 +96,7 @@ else
     echo .
     echo .
     install_deps
-    echo This Script Was Made By Nitro > .update
+    echo This Script Was Made By ALBY > .update
     echo 'Requirements Installed....'
     pause
 fi
@@ -154,9 +154,9 @@ do
         echo -e "\e[1;34m Downloading Latest Files..."
         cd $HOME
         rm -rf Tbomb
-        git clone https://github.com/Hackertrackersj/Tbomb
+        git clone https://github.com/ALBINPRAVEEN/bombing
         cd bombing
-        bash TBomb.sh
+        bash Bombing.sh
        
         exit
     elif [ $ch -eq 6 ];then
