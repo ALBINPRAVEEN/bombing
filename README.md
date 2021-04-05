@@ -1,9 +1,9 @@
-<h1 align="center">TBomb v2.2</h1>
+<h1 align="center">Bombing v2.2</h1>
 <p align="center">An open-source SMS/call bomber for Linux And Termux.</p><br>
 
 ## Note:
 
-Due misusing of TBomb, several API's died. 
+Due misusing of Bombing, several API's died. 
 Don't be afraid if you don't see all send messages.
 
 - The script requires working network connection to work.
@@ -21,7 +21,7 @@ If output looks like `Python 3` - Congrats, Python 3 is installed properly.
 
 - Do not use this to harm others.
 - This script is only for educational purposes or to prank.
-- **None of the developers/contributors are responsible for the misuse of TBomb.**
+- **None of the developers/contributors are responsible for the misuse of Bombing.**
 <br>
 
 ## Features:
@@ -36,7 +36,7 @@ If output looks like `Python 3` - Congrats, Python 3 is installed properly.
 
 ## Usage:
 
-Run these commands to run TBomb
+Run these commands to run Bombing
 
 ### > For Termux:
 
@@ -51,12 +51,12 @@ To use the bomber type the following commands in Termux:
 ```
 pkg install git
 pkg install python
-git clone https://github.com/Hackertrackersj/Tbomb.git
-cd Tbomb
-chmod +x TBomb.sh
-./TBomb.sh
+git clone https://github.com/ALBINPRAVEEN/bombing
+cd bombing
+chmod +x Bombing.sh
+./Bombing.sh
 ```
-## Watch practical video <a href="https://youtu.be/gq7NKkNYuVA"> click here</a>
+
 
 ### > For Linux:
 
@@ -70,10 +70,10 @@ Commands below provide instructions for Debian-based systems.
 To use the bomber type the following commands in Linux terminal:
 ```
 sudo apt install git
-git clone https://github.com/Hackertrackersj/Tbomb
-cd TBomb
-chmod +x TBomb.sh
-sudo bash TBomb.sh
+git clone https://github.com/ALBINPRAVEEN/bombing
+cd Bombing
+chmod +x Bombing.sh
+sudo bash Bombing.sh
 ```
 
 ### > For macOS:
@@ -90,28 +90,28 @@ brew install git
 brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
-git clone https://github.com/Hackertrackersj/Tbomb
-cd TBomb
-chmod +x TBomb.sh
+git clone https://github.com/ALBINPRAVEEN/bombing
+cd bombing
+chmod +x Bombing.sh
 
 # Missing Tools on MacOS
 
-Toilet cannot be installed yet. But TBomb does still work.
+Toilet cannot be installed yet. But Bombing does still work.
 
 # Run TBomb:
 
-sudo bash TBomb.sh
+sudo bash Bombing.sh
 ```
 
-## Demontrative Video:
-
-- Watch Indian Bombing Method <a href="https://youtu.be/gq7NKkNYuVA">here</a><br>
 
 
-## CONTRIBUTORS:
 
-- **SpeedX**<br>
-[-] Mail At:https://github.com/Hackertrackersj/Tbomb
+
+
+
+
+
+
 
 
 
@@ -123,10 +123,10 @@ sudo bash TBomb.sh
 Feel Free To Open An Issue...
 
 ```
-                 Mail:https://github.com/Hackertrackersj/Tbomb
-       YouTube Channel:https://www.youtube.com/channel/UCqqNyOaX6Dxwg5e6Bf6reSw
+                 Mail:albinpraveen1135790@gmail.com
+
 ```
 
-<a href="https:
+
 
 
